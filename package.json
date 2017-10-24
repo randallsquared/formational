@@ -1,6 +1,6 @@
 {
-  "name": "fomrational",
-  "version": "0.1.0",
+  "name": "formational",
+  "version": "0.9.0",
   "description": "Parse forms asynchronously with nice defaults",
   "main": "index.js",
   "author": "Randall Randall <randall@randallsquared.com>",
