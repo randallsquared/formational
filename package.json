@@ -1,0 +1,36 @@
+{
+  "name": "fomrational",
+  "version": "0.1.0",
+  "description": "Parse forms asynchronously with nice defaults",
+  "main": "index.js",
+  "author": "Randall Randall <randall@randallsquared.com>",
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randallsquared/formational.git"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "form-data",
+    "urlencoded",
+    "micro",
+    "busboy"
+  ],
+  "dependencies": {
+    "append-field": "^1.0.0",
+    "busboy": "^0.2.14",
+    "concat-stream": "^1.6.0",
+    "is-string": "^1.0.4",
+    "isstream": "^0.1.2",
+    "stream-buffers": "^3.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "micro": "^8.0.2",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "test-listen": "^1.0.2"
+  }
+}
