@@ -48,7 +48,7 @@ Options can be set when parsing, at the object level, or at the module level.  W
 
 ### expect
 
-If an `expect` object is present, and if it has keys, each of `body`, `files`, `query`, and `vars` will be parsed only if it is defined on `expect`.  An `expect` of `{body: true, query: true, vars: true}` will result in no files being parsed, but silently discarded if they exist.  If an `http.IncomingMessage
+If an `expect` object is present, and if it has keys, each of `body`, `files`, `query`, and `vars` will be parsed only if it is defined on `expect`.  An `expect` of `{body: true, query: true, vars: true}` will result in no files being parsed, but silently discarded if they exist.
 
 > Default: undefined
 
